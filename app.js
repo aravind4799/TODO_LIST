@@ -18,7 +18,8 @@ mongoose.set('useFindAndModify',false);
 
 //create a mongodb database named todolistDB
 //mongodb+srv://admin_aravind:<password>@cluster0-e7ve9.mongodb.net/<dbname>?retryWrites=true&w=majority
-mongoose.connect("mongodb+srv://admin_aravind:battlebee4799@cluster0-e7ve9.mongodb.net/todolistDB",{ useNewUrlParser: true, useUnifiedTopology: true })
+//use the above command to check the database which is hosted in cloud.//mongodb ATLAS
+mongoose.connect("mongodb+srv://admin_aravind:<Your_password>@cluster0-e7ve9.mongodb.net/todolistDB",{ useNewUrlParser: true, useUnifiedTopology: true })
 
 //create a schema for home route
 const ListSchema = {
