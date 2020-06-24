@@ -148,6 +148,6 @@ app.get("/:dynamic_route",function(req,res){
 }
 })
 
-app.listen( process.env.Port || 3040, function() {
+app.listen( process.env.PORT || 3040, function() {
   console.log("Server started on port 3040");
 });
